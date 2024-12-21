@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

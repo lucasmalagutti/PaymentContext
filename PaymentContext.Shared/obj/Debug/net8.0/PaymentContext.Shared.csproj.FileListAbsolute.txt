@@ -9,3 +9,5 @@ C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\o
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\obj\Debug\net8.0\refint\PaymentContext.Shared.dll
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\obj\Debug\net8.0\PaymentContext.Shared.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\obj\Debug\net8.0\ref\PaymentContext.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\obj\Debug\net8.0\PaymentContext.Shared.sourcelink.json
+C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Shared\obj\Debug\net8.0\PaymentContext.Shared.csproj.AssemblyReference.cache

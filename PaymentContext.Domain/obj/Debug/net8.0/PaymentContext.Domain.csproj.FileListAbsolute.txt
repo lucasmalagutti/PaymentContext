@@ -13,3 +13,4 @@ C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\b
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\bin\Debug\net8.0\PaymentContext.Shared.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net8.0\PaymentContext.Domain.csproj.AssemblyReference.cache
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net8.0\PaymentC.29F7DA76.Up2Date
+C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net8.0\PaymentContext.Domain.sourcelink.json

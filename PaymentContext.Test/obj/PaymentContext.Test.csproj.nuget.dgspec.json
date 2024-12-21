@@ -53,6 +53,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -118,6 +128,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -191,6 +211,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Flunt.br": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -206,6 +230,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
             }
           },
           "imports": [

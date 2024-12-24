@@ -116,3 +116,4 @@ C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Test\bin
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Test\bin\Debug\net8.0\PaymentContext.Shared.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Test\obj\Debug\net8.0\PaymentContext.Test.sourcelink.json
 C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Test\bin\Debug\net8.0\Flunt.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Test\bin\Debug\net8.0\Flunt.Br.dll

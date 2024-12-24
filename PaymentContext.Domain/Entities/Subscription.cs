@@ -1,4 +1,3 @@
-using System.Diagnostics.Contracts;
 using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Shared.Entities;
@@ -21,7 +20,7 @@ namespace PaymentContext.Domain.Entities
         public DateTime LastUpdateDate { get; private set; }
         public DateTime? ExpireDate { get; private set; }
         public bool Active { get; private set; }
-        public List<Payment> Payments { get; private set; }
+        public List<Payment> Payments { get { return _payments.ToList(); } }
         public void AddPayment(Payment payment)
         {
             AddNotifications(new Contract<Notification>()

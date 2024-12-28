@@ -27,8 +27,8 @@ namespace PaymentContext.Domain.Entities
             .Requires()
             );
 
-            if (IsValid)
-                _payments.Add(payment);
+            //if (IsValid)
+            _payments.Add(payment);
         }
         public void Activate()
         {

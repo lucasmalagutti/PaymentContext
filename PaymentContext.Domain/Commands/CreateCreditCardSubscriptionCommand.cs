@@ -34,6 +34,9 @@ namespace PaymentContext.Domain.Commands
         {
             AddNotifications(new Contract<Notification>()
             .Requires()
+            .IsNotNullOrEmpty(CardHolderName, "CreditCardPayment.CardHolderName", "Nome escrito no cartão não pode ser vazio.")
+            .IsNotNullOrEmpty(CardNumber, "CreditCardPayment.CardNumber", "Número do cartão não pode ser vazio.")
+            .IsNotNullOrEmpty(LastTransactionNumber, "CreditCardPayment.LastTransactionNumber", "Último número de transação do cartão não pode ser vazio.")
             .IsNotNullOrEmpty(Email, "Email.Address", "Email não pode ser vazio.")
             .IsEmail(Email, "Email.Address", "Email inválido")
             .IsNotNullOrEmpty(FirstName, "Name.FirstName", "Nome não pode ser vazio.")

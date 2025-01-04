@@ -33,6 +33,8 @@ namespace PaymentContext.Domain.Commands
         {
             AddNotifications(new Contract<Notification>()
             .Requires()
+            .IsNotNullOrEmpty(BoletoNumber, "BoletoPayment.BarNumber", "Número de boleto não pode ser vazio.")
+            .IsNotNullOrEmpty(BarCode, "BoletoPayment.BarCode", "Código de barras não pode ser vazio.")
             .IsNotNullOrEmpty(Email, "Email.Address", "Email não pode ser vazio.")
             .IsEmail(Email, "Email.Address", "Email inválido")
             .IsNotNullOrEmpty(FirstName, "Name.FirstName", "Nome não pode ser vazio.")
